@@ -24,10 +24,10 @@ using System.Collections.Generic;
 
 namespace C5
 {
-    /// <summary>
-    /// A read-only wrapper class for a generic enumerator
-    /// </summary>
-    [Serializable]
+  /// <summary>
+  /// A read-only wrapper class for a generic enumerator
+  /// </summary>
+  [Serializable]
     public class GuardedEnumerator<T> : IEnumerator<T>
     {
         #region Fields

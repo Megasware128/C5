@@ -24,21 +24,21 @@ using SCG = System.Collections.Generic;
 
 namespace C5
 {
-    /// <summary>
-    /// An implementation of Red-Black trees as an indexed, sorted collection with set semantics,
-    /// cf. <a href="litterature.htm#CLRS">CLRS</a>. <see cref="T:C5.TreeBag`1"/> for a version 
-    /// with bag semantics. <see cref="T:C5.TreeDictionary`2"/> for a sorted dictionary 
-    /// based on this tree implementation.
-    /// <i>
-    /// The comparer (sorting order) may be either natural, because the item type is comparable 
-    /// (generic: <see cref="T:C5.IComparable`1"/> or non-generic: System.IComparable) or it can
-    /// be external and supplied by the user in the constructor.</i>
-    ///
-    /// <i>TODO: describe performance here</i>
-    /// <i>TODO: discuss persistence and its useful usage modes. Warn about the space
-    /// leak possible with other usage modes.</i>
-    /// </summary>
-    [Serializable]
+  /// <summary>
+  /// An implementation of Red-Black trees as an indexed, sorted collection with set semantics,
+  /// cf. <a href="litterature.htm#CLRS">CLRS</a>. <see cref="T:C5.TreeBag`1"/> for a version 
+  /// with bag semantics. <see cref="T:C5.TreeDictionary`2"/> for a sorted dictionary 
+  /// based on this tree implementation.
+  /// <i>
+  /// The comparer (sorting order) may be either natural, because the item type is comparable 
+  /// (generic: <see cref="T:C5.IComparable`1"/> or non-generic: System.IComparable) or it can
+  /// be external and supplied by the user in the constructor.</i>
+  ///
+  /// <i>TODO: describe performance here</i>
+  /// <i>TODO: discuss persistence and its useful usage modes. Warn about the space
+  /// leak possible with other usage modes.</i>
+  /// </summary>
+  [Serializable]
     public class TreeSet<T> : SequencedBase<T>, IIndexedSorted<T>, IPersistentSorted<T>
     {
         #region Fields

@@ -24,10 +24,10 @@ using SCG = System.Collections.Generic;
 namespace C5
 {
 
-    /// <summary>
-    /// Base class for classes implementing ICollectionValue[T]
-    /// </summary>
-    [Serializable]
+  /// <summary>
+  /// Base class for classes implementing ICollectionValue[T]
+  /// </summary>
+  [Serializable]
     public abstract class CollectionValueBase<T> : EnumerableBase<T>, ICollectionValue<T>, IShowable
     {
         #region Event handling

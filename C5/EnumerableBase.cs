@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic; 
+using System.Collections.Generic;
 
 namespace C5
 {
-    /// <summary>
-    /// A base class for implementing an IEnumerable&lt;T&gt;
-    /// </summary>
-    [Serializable]
+  /// <summary>
+  /// A base class for implementing an IEnumerable&lt;T&gt;
+  /// </summary>
+  [Serializable]
     public abstract class EnumerableBase<T> : IEnumerable<T>
     {
         /// <summary>

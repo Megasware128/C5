@@ -24,16 +24,16 @@ using System;
 using SCG = System.Collections.Generic;
 namespace C5
 {
-    /// <summary>
-    /// A list collection based on a plain dynamic array data structure.
-    /// Expansion of the internal array is performed by doubling on demand. 
-    /// The internal array is only shrinked by the Clear method. 
-    ///
-    /// <i>When the FIFO property is set to false this class works fine as a stack of T.
-    /// When the FIFO property is set to true the class will function as a (FIFO) queue
-    /// but very inefficiently, use a LinkedList (<see cref="T:C5.LinkedList`1"/>) instead.</i>
-    /// </summary>
-    [Serializable]
+  /// <summary>
+  /// A list collection based on a plain dynamic array data structure.
+  /// Expansion of the internal array is performed by doubling on demand. 
+  /// The internal array is only shrinked by the Clear method. 
+  ///
+  /// <i>When the FIFO property is set to false this class works fine as a stack of T.
+  /// When the FIFO property is set to true the class will function as a (FIFO) queue
+  /// but very inefficiently, use a LinkedList (<see cref="T:C5.LinkedList`1"/>) instead.</i>
+  /// </summary>
+  [Serializable]
     public class HashedArrayList<T> : ArrayBase<T>, IList<T>, SCG.IList<T>
     {
         #region Fields

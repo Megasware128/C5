@@ -23,10 +23,10 @@ using System;
 
 namespace C5
 {
-    /// <summary>
-    /// 
-    /// </summary>
-    [Flags]
+  /// <summary>
+  /// 
+  /// </summary>
+  [Flags]
     public enum EventTypeEnum
     {
         /// <summary>

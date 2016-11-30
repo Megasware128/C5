@@ -23,7 +23,7 @@ using System;
 using SCG = System.Collections.Generic;
 namespace C5
 {
-    [Serializable]
+  [Serializable]
     abstract class MappedDirectedCollectionValue<T, V> : DirectedCollectionValueBase<V>, IDirectedCollectionValue<V>
     {
         IDirectedCollectionValue<T> directedcollectionvalue;

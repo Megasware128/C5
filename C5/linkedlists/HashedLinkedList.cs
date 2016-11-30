@@ -25,10 +25,10 @@ using SCG = System.Collections.Generic;
 
 namespace C5
 {
-    /// <summary>
-    /// A list collection class based on a doubly linked list data structure.
-    /// </summary>
-    [Serializable]
+  /// <summary>
+  /// A list collection class based on a doubly linked list data structure.
+  /// </summary>
+  [Serializable]
     public class HashedLinkedList<T> : SequencedBase<T>, IList<T>, SCG.IList<T>
     {
         #region Fields

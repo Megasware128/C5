@@ -25,19 +25,19 @@ using SCG = System.Collections.Generic;
 
 namespace C5
 {
-    /// <summary>
-    /// An implementation of Red-Black trees as an indexed, sorted collection with bag semantics,
-    /// cf. <a href="litterature.htm#CLRS">CLRS</a>. (<see cref="T:C5.TreeBag`1"/> for an 
-    /// implementation with set semantics).
-    /// <br/>
-    /// The comparer (sorting order) may be either natural, because the item type is comparable 
-    /// (generic: <see cref="T:C5.IComparable`1"/> or non-generic: System.IComparable) or it can
-    /// be external and supplied by the user in the constructor.
-    /// <br/>
-    /// Each distinct item is only kept in one place in the tree - together with the number
-    /// of times it is a member of the bag. Thus, if two items that are equal according
-    /// </summary>
-    [Serializable]
+  /// <summary>
+  /// An implementation of Red-Black trees as an indexed, sorted collection with bag semantics,
+  /// cf. <a href="litterature.htm#CLRS">CLRS</a>. (<see cref="T:C5.TreeBag`1"/> for an 
+  /// implementation with set semantics).
+  /// <br/>
+  /// The comparer (sorting order) may be either natural, because the item type is comparable 
+  /// (generic: <see cref="T:C5.IComparable`1"/> or non-generic: System.IComparable) or it can
+  /// be external and supplied by the user in the constructor.
+  /// <br/>
+  /// Each distinct item is only kept in one place in the tree - together with the number
+  /// of times it is a member of the bag. Thus, if two items that are equal according
+  /// </summary>
+  [Serializable]
     public class TreeBag<T> : SequencedBase<T>, IIndexedSorted<T>, IPersistentSorted<T>
     {
         #region Fields

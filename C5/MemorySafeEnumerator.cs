@@ -5,7 +5,7 @@ using System.Threading;
 
 namespace C5
 {
-    [Serializable]
+  [Serializable]
     internal abstract class MemorySafeEnumerator<T> : IEnumerator<T>, IEnumerable<T>, IDisposable
     {
         private static int MainThreadId;

@@ -24,10 +24,10 @@ using System.Text;
 
 namespace C5
 {
-    /// <summary>
-    /// <i>(Describe usage of "L:300" format string.)</i>
-    /// </summary>
-    public interface IShowable : IFormattable
+  /// <summary>
+  /// <i>(Describe usage of "L:300" format string.)</i>
+  /// </summary>
+  public interface IShowable : IFormattable
     {
         //TODO: wonder if we should use TextWriters instead of StringBuilders?
         /// <summary>

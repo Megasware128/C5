@@ -25,13 +25,13 @@ using SCG = System.Collections.Generic;
 
 namespace C5
 {
-	/// <summary>
-	/// An advanced interface to operations on an array. The array is viewed as an 
-	/// <see cref="T:C5.IList`1"/> of fixed size, and so all operations that would change the
-	/// size of the array will be invalid (and throw <see cref="T:C5.FixedSizeCollectionException"/>
-	/// </summary>
-	/// <typeparam name="T"></typeparam>
-	[Serializable]
+  /// <summary>
+  /// An advanced interface to operations on an array. The array is viewed as an 
+  /// <see cref="T:C5.IList`1"/> of fixed size, and so all operations that would change the
+  /// size of the array will be invalid (and throw <see cref="T:C5.FixedSizeCollectionException"/>
+  /// </summary>
+  /// <typeparam name="T"></typeparam>
+  [Serializable]
 	public class WrappedArray<T> : IList<T>, SCG.IList<T>
 	{
 		[Serializable]

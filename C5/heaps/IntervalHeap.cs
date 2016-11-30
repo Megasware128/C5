@@ -24,11 +24,11 @@ using SCG = System.Collections.Generic;
 
 namespace C5
 {
-    /// <summary>
-    /// A priority queue class based on an interval heap data structure.
-    /// </summary>
-    /// <typeparam name="T">The item type</typeparam>
-    [Serializable]
+  /// <summary>
+  /// A priority queue class based on an interval heap data structure.
+  /// </summary>
+  /// <typeparam name="T">The item type</typeparam>
+  [Serializable]
     public class IntervalHeap<T> : CollectionValueBase<T>, IPriorityQueue<T>
     {
         #region Events

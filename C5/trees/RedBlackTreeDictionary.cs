@@ -24,10 +24,10 @@ using SCG = System.Collections.Generic;
 
 namespace C5
 {
-    /// <summary>
-    /// A sorted generic dictionary based on a red-black tree set.
-    /// </summary>
-    [Serializable]
+  /// <summary>
+  /// A sorted generic dictionary based on a red-black tree set.
+  /// </summary>
+  [Serializable]
     public class TreeDictionary<K, V> : SortedDictionaryBase<K, V>, IDictionary<K, V>, ISortedDictionary<K, V>
     {
 

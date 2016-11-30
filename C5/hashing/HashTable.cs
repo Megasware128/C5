@@ -24,10 +24,10 @@ using SCG = System.Collections.Generic;
 
 namespace C5
 {
-    /// <summary>
-    /// A set collection class based on linear hashing
-    /// </summary>
-    [Serializable]
+  /// <summary>
+  /// A set collection class based on linear hashing
+  /// </summary>
+  [Serializable]
     public class HashSet<T> : CollectionBase<T>, ICollection<T>
     {
         #region Feature

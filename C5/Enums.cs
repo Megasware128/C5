@@ -19,18 +19,15 @@
  SOFTWARE.
 */
 
-using System;
-using System.Diagnostics;
-using SCG = System.Collections.Generic;
 namespace C5
 {
 
-    /// <summary>
-    /// The symbolic characterization of the speed of lookups for a collection.
-    /// The values may refer to worst-case, amortized and/or expected asymtotic 
-    /// complexity wrt. the collection size.
-    /// </summary>
-    public enum Speed : short
+  /// <summary>
+  /// The symbolic characterization of the speed of lookups for a collection.
+  /// The values may refer to worst-case, amortized and/or expected asymtotic 
+  /// complexity wrt. the collection size.
+  /// </summary>
+  public enum Speed : short
     {
         /// <summary>
         /// Counting the collection with the <code>Count property</code> may not return

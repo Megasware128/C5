@@ -2,10 +2,10 @@ using System;
 
 namespace C5
 {
-    /// <summary>
-    /// Logging module
-    /// </summary>
-    public static class Logger
+  /// <summary>
+  /// Logging module
+  /// </summary>
+  public static class Logger
     {
         private static Action<string> _log;
 

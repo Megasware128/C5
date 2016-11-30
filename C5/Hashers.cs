@@ -24,13 +24,13 @@ using SCG = System.Collections.Generic;
 
 namespace C5
 {
-    /// <summary>
-    /// An equalityComparer compatible with a given comparer. All hash codes are 0, 
-    /// meaning that anything based on hash codes will be quite inefficient.
-    /// <para><b>Note: this will give a new EqualityComparer each time created!</b></para>
-    /// </summary>
-    /// <typeparam name="T"></typeparam>
-    [Serializable]
+  /// <summary>
+  /// An equalityComparer compatible with a given comparer. All hash codes are 0, 
+  /// meaning that anything based on hash codes will be quite inefficient.
+  /// <para><b>Note: this will give a new EqualityComparer each time created!</b></para>
+  /// </summary>
+  /// <typeparam name="T"></typeparam>
+  [Serializable]
     internal class ComparerZeroHashCodeEqualityComparer<T> : SCG.IEqualityComparer<T>
     {
         SCG.IComparer<T> comparer;

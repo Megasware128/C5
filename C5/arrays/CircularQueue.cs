@@ -23,11 +23,11 @@ using System;
 using SCG = System.Collections.Generic;
 namespace C5
 {
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <typeparam name="T"></typeparam>
-    [Serializable]
+  /// <summary>
+  /// 
+  /// </summary>
+  /// <typeparam name="T"></typeparam>
+  [Serializable]
     public class CircularQueue<T> : SequencedBase<T>, IQueue<T>, IStack<T>
     {
         #region Fields

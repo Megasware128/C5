@@ -23,7 +23,7 @@ using System;
 
 namespace C5
 {
-    struct RecConst
+  struct RecConst
     {
         public const int HASHFACTOR = 387281;
     }
